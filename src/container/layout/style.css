@@ -1,0 +1,13 @@
+
+.head {background-color: #333;color: #fff;padding: 0 30px;height: 50px;z-index: 2;}
+.head_inn {display: flex;justify-content: space-between; align-items: center;height: 100%;}
+.logo {color: #fff;text-decoration: none;font-size: 24px;}
+nav {display: flex;height: 100%;align-items: center;}
+.menu-wrapper {position: relative;text-align: center;height: 100%;display: flex;align-items: center;}
+.menu-wrapper a {color: #fff;text-decoration: none;transition: color 0.3s;padding: 0 30px; } 
+.menu-wrapper:hover > a {font-weight: 600;}
+.child-menu {position: absolute;width: 100%;top: 0;left: 0;background-color: #333;box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);z-index: 1;transition: all 0.3s ease;opacity: 0;}
+.menu-wrapper:hover .child-menu {display: block;top:100%;opacity: 1;}
+.child-menu a {display: block;padding: 10px;color: #fff;text-decoration: none;transition: background-color 0.3s;}
+.child-menu a:hover {background-color: #555;}
+  

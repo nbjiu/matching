@@ -1,0 +1,4 @@
+.main_table-tit {display: flex; align-items: center;justify-content: space-between;}
+.main_table-tit h3{font-size: 18px;font-weight: 600;position: relative;display: flex;align-items: center;padding-left: 10px;}
+.main_table-tit h3::before{content: "";left: 0; position: absolute; width: 5px;height: 5px;background: #000;}
+.main_table-tit a {display: flex;align-items: center;gap: 2px;color: #333;}

@@ -1,0 +1,4 @@
+.default_data {display: flex;gap: 5px;}
+.default_data .default_file {width: 200px; border: 1px solid #eee;}
+.default_data .default_file img {height: 250px;object-fit: cover;}
+.default_data .default_data_inn {width: 100%;border: 1px solid #eee;}
